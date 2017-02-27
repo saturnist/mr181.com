@@ -41,10 +41,11 @@ body {
   text-align: center;
 }
 
-.wavetext span {
+.wavetext {
   display: inline-block;
   font-family: "Fredoka One", sans-serif;
-  font-size: 70px;
+  color: #86FAF3;
+  font-size: 20px;
   animation-duration: 0.4s;
   animation-name: wave;
   animation-iteration-count: infinite;
