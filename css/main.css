@@ -18,3 +18,135 @@ table.table-bordered {
  table.table-bordered > tbody > tr > td {
      border: 1px solid blanchedalmond;
  }
+
+ /*
+ This is my very first SCSS experiment
+*/
+@import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+body {
+  background-color: black;
+}
+
+@keyframes wave {
+  from {
+    transform: translateY(0);
+    color: white;
+  }
+  to {
+    transform: translateY(-35px);
+  }
+}
+.wavetext {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.wavetext span {
+  display: inline-block;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 70px;
+  animation-duration: 0.4s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wavetext :nth-child(20n + 0) {
+  animation-delay: -0.8s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 1) {
+  animation-delay: -0.76s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 2) {
+  animation-delay: -0.72s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 3) {
+  animation-delay: -0.68s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 4) {
+  animation-delay: -0.64s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 5) {
+  animation-delay: -0.6s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 6) {
+  animation-delay: -0.56s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 7) {
+  animation-delay: -0.52s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 8) {
+  animation-delay: -0.48s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 9) {
+  animation-delay: -0.44s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 10) {
+  animation-delay: -0.4s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 11) {
+  animation-delay: -0.36s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 12) {
+  animation-delay: -0.32s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 13) {
+  animation-delay: -0.28s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 14) {
+  animation-delay: -0.24s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 15) {
+  animation-delay: -0.2s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 16) {
+  animation-delay: -0.16s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 17) {
+  animation-delay: -0.12s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 18) {
+  animation-delay: -0.08s;
+  color: #86FAF3;
+}
+
+.wavetext :nth-child(20n + 19) {
+  animation-delay: -0.04s;
+  color: #86FAF3;
+}
